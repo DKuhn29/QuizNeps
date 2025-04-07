@@ -1,0 +1,4 @@
+isa 5
+pedro 5
+lia 3
+Duda 0
