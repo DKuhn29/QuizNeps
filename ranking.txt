@@ -1,3 +1,4 @@
+duda 5
 isa 5
 pedro 5
 lia 3

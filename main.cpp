@@ -30,11 +30,11 @@ vector<pergunta> carregar() {
         p.texto = linha;
 
         for (int i = 0; i < 4; i++) {
-            getline(arq, linha);
+            if (!getline(arq, linha)) break; 
             p.op[i] = linha;
         }
-
-        getline(arq, linha);
+        
+        if (!getline(arq, linha) || linha.empty()) break; 
         p.resp = linha[0];
 
         per.push_back(p);
